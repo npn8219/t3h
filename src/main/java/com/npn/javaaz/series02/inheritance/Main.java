@@ -13,5 +13,8 @@ public class Main {
         truck1.name = "Hổ vằn";
         truck1.weight = 5;
         System.out.println(truck1);
+
+        Vehicle car2 = new Car();
+        Vehicle truck2 = new Truck();
     }
 }

@@ -1,0 +1,16 @@
+DROP SCHEMA t3h01;
+CREATE SCHEMA t3h01;
+USE t3h01;
+
+CREATE TABLE `group` (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    group_name VARCHAR(200),
+);
+
+CREATE TABLE account (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(200),
+    email VARCHAR(200)
+);
+
+
