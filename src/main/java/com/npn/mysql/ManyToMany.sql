@@ -48,4 +48,4 @@ VALUES
 SELECT a.ten_mon_hoc, c.ten_lop
 FROM mon_hoc a JOIN mon_hoc_lop b
 ON a.id = b.mon_hoc_id
-JOIN lop c ON c.id = b.lop_id
+JOIN lop c ON c.id = b.lop_id;

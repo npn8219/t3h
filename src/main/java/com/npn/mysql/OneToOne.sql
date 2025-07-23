@@ -21,8 +21,7 @@ INSERT INTO account(street, city, country)
 VALUES
     ('Tạ Quang Bửu','HN','VN',1),
     ('Phạm Hùng','HN','VN',2),
-    ('Nguyễn Đức Cảnh','HP','VN',4),
-    ;
+    ('Nguyễn Đức Cảnh','HP','VN',4);
 
 SELECT *
 FROM account a JOIN address b

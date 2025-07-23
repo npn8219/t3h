@@ -20,8 +20,7 @@ VALUES
     (1, 'IT'),
     (2, 'Sale'),
     (3, 'Marrketing'),
-    (4, 'Enocomic')
-    ;
+    (4, 'Enocomic');
 
 INSERT INTO student (id, full_name, address, birthday, department_id)
 VALUES
@@ -32,8 +31,7 @@ VALUES
     (5, 'Nguyen Lan', 'HCM', '2025.03.17', 2),
     (6, 'Nguyen Chinh', 'HN', '2015.03.17', 3),
     (7, 'Pham Hoang', 'HN', '2010.03.17', 1),
-    (8, 'Tran My', 'HCM', '2008.03.17', 2)
-    ;
+    (8, 'Tran My', 'HCM', '2008.03.17', 2);
 
 SELECT *
 FROM student JOIN department

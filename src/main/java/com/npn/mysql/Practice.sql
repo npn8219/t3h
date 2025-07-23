@@ -26,7 +26,6 @@ CREATE TABLE sinh_vien_de_tai (
     FOREIGN KEY (de_tai_id) REFERENCES de_tai(id)
 );
 
--- insert
 INSERT INTO sinh_vien (ho_ten, dia_chi, birthday, email)
 VALUES
     ('Ngoc 1', 'HN', NOW(), 'ngoc1@gmail.com'),

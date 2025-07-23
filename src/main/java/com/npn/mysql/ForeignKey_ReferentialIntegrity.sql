@@ -1,5 +1,5 @@
-// Khóa ngoại cần tham chiếu đến khóa chính
-// Khóa chính => dùng Foreign key references
+-- Khóa ngoại cần tham chiếu đến khóa chính
+-- Khóa chính => dùng Foreign key references
 
 DROP SCHEMA t3h01;
 CREATE SCHEMA t3h01;
@@ -23,9 +23,8 @@ INSERT INTO department(id, department_name)
 VALUES
     (1, 'IT'),
     (2, 'Sale'),
-    (3, 'Marrketing'),
-    (4, 'Enocomic')
-    ;
+    (3, 'Marketing'),
+    (4, 'Economic');
 
 INSERT INTO student (full_name, address, birthday, department_id)
 VALUES
@@ -36,8 +35,7 @@ VALUES
     ('Nguyen Lan', 'HCM', '2025.03.17', null),
     ('Nguyen Chinh', 'HN', '2015.03.17', null),
     ('Pham Hoang', 'HN', '2010.03.17', null),
-    ('Tran My', 'HCM', '2008.03.17', null)
-    ;
+    ('Tran My', 'HCM', '2008.03.17', null);
 
 SELECT *
 FROM student JOIN department
